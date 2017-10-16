@@ -11,5 +11,7 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  array.include? ("cheddar")
+  if array.include? ("cheddar")
+    puts array.join(" ")
+  end
 end
