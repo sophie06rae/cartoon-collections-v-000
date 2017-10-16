@@ -12,6 +12,6 @@ end
 
 def find_the_cheese(array)
   if array.include? ("cheddar")
-    puts array.join(" ")
+    array.join(" ")
   end
 end
