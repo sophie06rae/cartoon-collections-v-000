@@ -12,6 +12,6 @@ end
 
 def find_the_cheese(array)
   if array.include? { |i| i == "cheddar" }
-    puts i 
+    puts i
   end 
 end
