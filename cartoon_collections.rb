@@ -11,11 +11,5 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  array.each do |i|
-    if array.inculde?("cheddar")
-      puts i
-    else
-      nil
-    end
-  end
+  array.dectect {|i| i == "cheddar"}
 end
