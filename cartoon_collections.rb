@@ -11,7 +11,11 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  if array.include? ("cheddar")
-    puts "cheddar"
+  array.each do |i|
+    if i == "cheddar"
+      puts i
+    else
+      nil
+    end 
   end
 end
