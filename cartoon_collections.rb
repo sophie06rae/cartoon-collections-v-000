@@ -11,5 +11,5 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  array.dectect {|i| i == "cheddar"}
+  array.detect {|i| i == "cheddar"}
 end
