@@ -16,6 +16,6 @@ def find_the_cheese(array)
       puts i
     else
       nil
-    end 
+    end
   end
 end
