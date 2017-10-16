@@ -12,7 +12,7 @@ end
 
 def find_the_cheese(array)
   array.each do |i|
-    if i == "cheddar"
+    if array.inculde?("cheddar")
       puts i
     else
       nil
